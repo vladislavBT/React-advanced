@@ -14,6 +14,8 @@ const CleanupFunction = () => {
 }
 
 
+
+
 const RandomComponent = () => {
   useEffect(() => {
     console.log('hmm, this is interesting');
@@ -38,4 +40,4 @@ const RandomComponent = () => {
 
   return <h1>hello there</h1>
 }
-export default CleanupFunction
+export default CleanupFunction 

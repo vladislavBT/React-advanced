@@ -6,6 +6,7 @@ const UncontrolledInputs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    console.log(e.currentTarget)
     const formData = new FormData(e.currentTarget);
     // get values one by one
     const name = formData.get('name');
@@ -16,6 +17,7 @@ const UncontrolledInputs = () => {
     console.log(newUser);
     // Gotcha - re-render won't clear out the values
     setValue(value + 1);
+    console.log(value);
     // reset values
     e.currentTarget.reset();
   };

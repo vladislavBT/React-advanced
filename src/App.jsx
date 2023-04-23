@@ -16,15 +16,19 @@
 // import Starter51 from './tutorial/05-leverage-javascript/starter/List'
 // import Starter43 from './tutorial/04-project-structure/starter/Pages/index'
 // import Starter61 from './tutorial/06-forms/starter/01-controlled-inputs'
-import Starter62 from './tutorial/06-forms/starter/02-user-challenge'
-import Starter63 from './tutorial/06-forms/starter/03-multiple-inputs'
-import Starter64 from './tutorial/06-forms/starter/04-other-inputs'
+// import Starter62 from './tutorial/06-forms/starter/02-user-challenge'
+// import Starter63 from './tutorial/06-forms/starter/03-multiple-inputs'
+// import Starter64 from './tutorial/06-forms/starter/04-other-inputs'
+// import Final65 from './tutorial/06-forms/final/05-form-data'
+import Final71 from './tutorial/07-useRef/final/01-useRef-basics'
+import Starter81 from './tutorial/08-custom-hooks/starter/01-toggle'
+import Starter82 from './tutorial/08-custom-hooks/starter/02-fetch-data'
 
 
 function App() {
   return (
     <div className="container">
-      <Starter64></Starter64>
+      <Starter82></Starter82>
     </div>
   )
 }

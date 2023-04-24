@@ -23,12 +23,13 @@
 import Final71 from './tutorial/07-useRef/final/01-useRef-basics'
 import Starter81 from './tutorial/08-custom-hooks/starter/01-toggle'
 import Starter82 from './tutorial/08-custom-hooks/starter/02-fetch-data'
-
-
+import Final91 from './tutorial/09-context-api/final/prop-drilling/Navbar'
+import Starter92 from './tutorial/09-context-api/starter/context/Navbar'
+import Starter101 from './tutorial/10-useReducer/starter/01-useReducer'
 function App() {
   return (
     <div className="container">
-      <Starter82></Starter82>
+      <Starter101></Starter101>
     </div>
   )
 }

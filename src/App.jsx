@@ -26,10 +26,12 @@ import Starter82 from './tutorial/08-custom-hooks/starter/02-fetch-data'
 import Final91 from './tutorial/09-context-api/final/prop-drilling/Navbar'
 import Starter92 from './tutorial/09-context-api/starter/context/Navbar'
 import Starter101 from './tutorial/10-useReducer/starter/01-useReducer'
+import Starter111 from './tutorial/11-performance/starter/01-lower-state'
+import Starter112 from './tutorial/11-performance/starter/02-lower-state-challenge'
 function App() {
   return (
     <div className="container">
-      <Starter101></Starter101>
+      <Starter112></Starter112>
     </div>
   )
 }

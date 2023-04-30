@@ -11,6 +11,7 @@ const LowerStateChallenge = () => {
     const newPerson = { id: fakeId, name };
     setPeople([...people, newPerson]);
   };
+  
   return (
     <section>
       <Form addPerson={addPerson}></Form>

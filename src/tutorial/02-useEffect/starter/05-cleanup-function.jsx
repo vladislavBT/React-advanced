@@ -21,22 +21,24 @@ const RandomComponent = () => {
     console.log('hmm, this is interesting');
     const intID = setInterval(() => {
       console.log('hello from interval')
-    }, 1000)
+    }, 500)
 
    
     // does not stop, keeps going
     // every time we render component new interval gets created
-    return () => clearInterval(intID)
+    return () => {
+      console.log("aosudbjkansd");
+      return clearInterval(intID)}
   }, [])
 
-  useEffect(() => {
-    // console.log('hmm, this is interesting');
-    const someFunc = () => {
-      // some logic here
-    }
-    window.addEventListener('scroll', someFunc)
-    return () => window.removeEventListener('scroll', someFunc)
-  }, [])
+  // useEffect(() => {
+  //   // console.log('hmm, this is interesting');
+  //   const someFunc = () => {
+  //     // some logic here
+  //   }
+  //   window.addEventListener('scroll', someFunc)
+  //   return () => window.removeEventListener('scroll', someFunc)
+  // }, [])
 
   return <h1>hello there</h1>
 }

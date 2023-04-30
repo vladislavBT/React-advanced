@@ -16,6 +16,7 @@ const ControlledInputs = () => {
     // do something
     console.log(name, email)
   }
+
   return (
     <form className="form" onSubmit={handleSubmit}>
       <h4>controlled inputs</h4>
@@ -30,6 +31,7 @@ const ControlledInputs = () => {
           onChange={(e) => setName(e.target.value)}
           id="name"
         />
+        {console.log(name)}
       </div>
       <div className="form-row">
         <label htmlFor="email" className="form-label">

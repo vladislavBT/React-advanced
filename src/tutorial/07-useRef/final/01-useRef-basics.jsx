@@ -7,7 +7,8 @@ const UseRefBasics = () => {
   const refContainer = useRef(null)
   // not rerender
 
-  const isMounted = useRef(false)
+  // const isMounted = useRef(false)
+  // console.log(isMounted.current)
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -18,21 +19,23 @@ const UseRefBasics = () => {
     // console.log(e.target)
 
     const name = refContainer.current.value
-    // console.log(name);
+    console.log(name);
   }
 
   useEffect(() => {
+  
     console.log(refContainer.current.value)
     // refContainer.current.focus()
   })
 
-  useEffect(() => {
-    if (!isMounted.current) {
-      isMounted.current = true
-      return
-    }
-    console.log('re-render')
-  }, [value])
+
+  // useEffect(() => {
+  //   if (!isMounted.current) {
+  //     isMounted.current = true
+  //     return
+  //   }
+  //   console.log('re-render')
+  // }, [value])
 
   return (
     <div>

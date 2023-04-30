@@ -3,6 +3,7 @@ import { data } from '../../../data'
 
 const reducer = (state, action) => {
   if (action.type === CLEAR_LIST) {
+    console.log(state)
     return { ...state, people: [] }
   }
 

@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 
 const MultipleReturnsBasics = () => {
 
+  console.log('render')
+  
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(()=>{

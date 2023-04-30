@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 const MultipleReturnsBasics = () => {
   // while fetching data
   const [isLoading, setIsLoading] = useState(true);
-
+  
   useEffect(() => {
     setTimeout(() => {
       // done fetching data

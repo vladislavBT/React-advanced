@@ -2,6 +2,7 @@ import { useState, useCallback, useMemo } from 'react';
 import { data } from '../../../../data';
 import List from './List';
 import slowFunction from './slowFunction';
+
 const LowerState = () => {
   const [people, setPeople] = useState(data);
   const [count, setCount] = useState(0);

@@ -1,14 +1,15 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useSyncExternalStore } from 'react';
 
 const UseRefBasics = () => {
   const [value, setValue] = useState(0)
   //render
 
-  const refContainer = useRef(null)
+  const refContainer = useRef("")
   // not rerender
 
   // const isMounted = useRef(false)
   // console.log(isMounted.current)
+
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -23,11 +24,10 @@ const UseRefBasics = () => {
   }
 
   useEffect(() => {
-  
-    console.log(refContainer.current.value)
+    // console.log(refContainer.current.value)
+    console.log('asfd')
     // refContainer.current.focus()
-  })
-
+  }, [])
 
   // useEffect(() => {
   //   if (!isMounted.current) {

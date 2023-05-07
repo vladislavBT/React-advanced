@@ -21,20 +21,20 @@
 // import Starter63 from './tutorial/06-forms/starter/03-multiple-inputs'
 // import Starter64 from './tutorial/06-forms/starter/04-other-inputs'
 // import Final65 from './tutorial/06-forms/final/05-form-data'
-// import Final71 from './tutorial/07-useRef/final/01-useRef-basics'
+import Final71 from './tutorial/07-useRef/final/01-useRef-basics'
 // import Starter81 from './tutorial/08-custom-hooks/starter/01-toggle'
 // import Starter82 from './tutorial/08-custom-hooks/starter/02-fetch-data'
 // import Final91 from './tutorial/09-context-api/final/prop-drilling/Navbar'
 // import Starter92 from './tutorial/09-context-api/starter/context/Navbar'
 // import Starter101 from './tutorial/10-useReducer/starter/01-useReducer'
-import Starter111 from './tutorial/11-performance/starter/01-lower-state'
+// import Starter111 from './tutorial/11-performance/starter/01-lower-state'
 // import Starter112 from './tutorial/11-performance/starter/02-lower-state-challenge'
 // import Starter113 from './tutorial/11-performance/starter/03-hooks'
 // import Starter114 from './tutorial/11-performance/starter/04-react-18'
 function App() {
   return (
     <div className="container">
-      <Starter111></Starter111>
+      <Final71></Final71>
     </div>
   )
 }
